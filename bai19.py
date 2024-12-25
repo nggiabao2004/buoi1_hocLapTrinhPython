@@ -20,7 +20,7 @@ while True:
                 #rút tiền
                 tienRut=int(input("-> Nhập số tiền cần rút: "))
                 #kt tiền rút >0 và tongTien<tienRut
-                if tienRut<0 or tongTien<tienRut:
+                if tienRut<=0 or tongTien<tienRut:
                     print("Số tiền không đủ để rút")  
                     print("Số tiền hiện tại là: ",tongTien) 
                 #ngược lại tongTien-=tienRut

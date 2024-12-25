@@ -12,4 +12,4 @@ if 0<=h<=23:
     else:
         print("Thoi gian khong hop le") 
 else:
-    print("Thoi gian khong hop le")       
+    print("Thoi gian khong hop le")      

@@ -1,16 +1,13 @@
-
-do=0
 while True:
     a=int(input("Nhap so co 3 chu so: "))
     if 100<=a <999:
         break
     else:
-        print("Nhap so co 3 chu so: ")
+        print("Khong hop le")
 
 x=a//100
 y=a//10%10
-z=a%10
-       
+z=a%10       
 numbers = (x, y, z)
 
 match numbers:

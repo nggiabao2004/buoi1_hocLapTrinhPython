@@ -1,7 +1,13 @@
-x = int(input("Nhập số thứ nhất: "))
-y = int(input("Nhập số thứ hai: "))
-z = int(input("Nhập số thứ ba: "))
+while True:
+   a=int(input("Nhap so co 3 chu so: "))
+   if 100<=a <999:
+       break
+   else:
+       print("Khong hop le")
 
+x=a//100
+y=a//10%10
+z=a%10
 numbers = (x, y, z)
 
 match numbers:

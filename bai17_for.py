@@ -1,6 +1,5 @@
 n=int(input("Nhap so nguyen: "))
 
-
 if n<=0:
     print("Nhap so lon hon 0")
 else:

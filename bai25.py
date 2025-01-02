@@ -1,8 +1,8 @@
 #UocSo(12) = {1; 2; 3; 4; 6; 12}
 #6=s(6)=1+2+3
 n=int(input("Nhap so nguyen: "))
-
 total=0
+
 if n<=0:
     print("Nhap so lon hon 0")
 else:

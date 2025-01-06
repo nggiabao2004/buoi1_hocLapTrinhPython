@@ -9,12 +9,11 @@ import math
 
 n=int(input("Nhap so nguyen to: "))
 x=0
-if n<1:
-    print('Nhap lai so nguyen to lon hon 1')
+if n<2:
+    print('Nhap lai so nguyen to lon hon 2')
 else:
-    sqrtX=int(math.sqrt(x))
-    for i in range(2, sqrtX):
-        #Dang sai cho nay
+    sqrtNum=int(math.sqrt(n))
+    for i in range(2, sqrtNum+1):
         if n%i==0:
             x+=1
 

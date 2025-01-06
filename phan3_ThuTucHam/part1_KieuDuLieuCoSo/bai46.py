@@ -14,10 +14,10 @@ def soNguyenTo(num):
     return True
 
 #Liet ke cac so nguyen to
-def listSoNguyenTo(n):
+def listSoNguyenTo(num):
     listNumber=[]
     testing=2
-    while testing < n:
+    while testing < num:
         if soNguyenTo(testing):
             listNumber.append(testing)
         testing+=1
@@ -26,4 +26,4 @@ def listSoNguyenTo(n):
 if n<=0:
     print('Nhap lai so nguyen to lon hon 0')
 else:
-    print(f"{n} so nguyen to dau tien la: {listSoNguyenTo(n)}")
+    print(f"Cac so nguyen to nho hon {n} la: {listSoNguyenTo(n)}")

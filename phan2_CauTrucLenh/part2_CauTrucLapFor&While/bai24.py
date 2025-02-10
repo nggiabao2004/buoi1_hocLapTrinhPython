@@ -9,3 +9,13 @@
 a=int(input("Nhap so thu nhat: "))
 b=int(input("Nhap so thu hai: "))
 
+def uocLonNhat(a, b):
+    while b:
+        a, b = b, a% b
+    return a
+
+def boiNhoNhat(a, b):
+    return a*b // uocLonNhat(a,b)
+
+print(f"Uoc so chung lon nhat cua {a} va {b}:", uocLonNhat(a,b))
+print(f"Boi so nho nhat cua {a} va {b}:", boiNhoNhat(a,b))
